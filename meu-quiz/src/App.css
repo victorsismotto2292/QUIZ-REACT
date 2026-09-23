@@ -1,0 +1,93 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quiz-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #e63946;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #c1121f;
+}
+
+.progress-text {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+
+.option-btn {
+  padding: 12px;
+  text-align: left;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.option-btn:hover {
+  background-color: #f8f9fa;
+  border-color: #bbb;
+}
+
+.option-btn.selected {
+  border-color: #e63946;
+  background-color: #ffe3e6;
+  font-weight: bold;
+}
+
+.result-score {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #e63946;
+  margin: 1rem 0;
+}
+
+.result-percent {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
