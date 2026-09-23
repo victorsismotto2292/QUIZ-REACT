@@ -6,7 +6,7 @@ const Results = ({ score, totalQuestions, onRestart }) => {
 
   return (
     <div className="quiz-card">
-      <h1>Resultado Final 🏆</h1>
+      <h1>Resultado Final</h1>
       <div className="result-score">
         {score} / {totalQuestions}
       </div>
